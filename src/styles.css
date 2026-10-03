@@ -43,6 +43,7 @@
   --color-clay: var(--clay);
   --color-mute: var(--mute);
   --color-paper-deep: var(--paper-deep);
+  --color-whatsapp: var(--whatsapp);
 
   --font-display: "Space Grotesk", sans-serif;
   --font-body: "Inter", sans-serif;
@@ -77,6 +78,7 @@
   --ink: oklch(0.2 0.012 75);
   --clay: oklch(0.53 0.16 45);
   --mute: oklch(0.52 0.022 85);
+  --whatsapp: oklch(0.72 0.19 156);
 
   --ease: cubic-bezier(0.32, 0.72, 0, 1);
 }
