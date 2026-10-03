@@ -30,7 +30,7 @@ export function Reveal({
     <Tag
       ref={ref as never}
       style={style}
-      className={inView ? animation : "opacity-0"}
+      className={`${inView ? animation : "opacity-0"} ${className}`.trim()}
     >
       {children}
     </Tag>
